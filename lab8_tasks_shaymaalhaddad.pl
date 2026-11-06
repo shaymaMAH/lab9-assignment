@@ -31,5 +31,22 @@ total_average :-
     write('Total   = '), write(Total),   nl,
     write('Average = '), write(Average), nl.
 
-% Example:  3.  4.  8.   ->  Total = 15, Average = 5
-% Example:  1.  2.  2.   ->  Total = 5,  Average = 1.6666666666666667
+
+
+    
+% 49 ?- sumlist([1,2,5,7], S).
+%S = 15.
+
+%50 ?- sumlist([], S).
+%S = 0.
+
+%51 ?- total_average.
+%Enter the first number: 
+%|: 3.
+%Enter the second number: 
+%|: 4.
+%Enter the third number: 
+%|: 5.
+%Total   = 12
+%Average = 4
+%true.
